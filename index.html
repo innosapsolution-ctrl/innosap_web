@@ -19,7 +19,7 @@
     <nav class="sticky top-0 bg-white/90 backdrop-blur-md z-50 border-b border-slate-100">
         <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
             <div class="flex items-center">
-                <img src="innosap-profile (1).png" alt="InnoSAP Logo" class="h-12">
+                <img src="horizontal.png" alt="InnoSAP Logo" class="h-12">
             </div>
             <div class="hidden md:flex gap-8 font-semibold text-sm uppercase tracking-wider">
                 <a href="#expertise" class="hover:text-sky-600 transition">Expertise</a>
@@ -45,6 +45,48 @@
         </div>
     </header>
 
+    <!-- Project Completion Counters -->
+    <section class="py-12 bg-white border-b border-slate-100">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-8">
+                <div class="text-center p-6 bg-slate-50 rounded-2xl border border-slate-100 transition hover:shadow-md">
+                    <div class="text-4xl font-extrabold text-slate-900 mb-2">
+                        <span class="counter sap-blue" data-target="10">0</span><span class="sap-blue">+</span>
+                    </div>
+                    <div class="text-sm font-bold uppercase tracking-wider text-slate-500">GST Implementations</div>
+                </div>
+
+                <div class="text-center p-6 bg-slate-50 rounded-2xl border border-slate-100 transition hover:shadow-md">
+                    <div class="text-4xl font-extrabold text-slate-900 mb-2">
+                        <span class="counter sap-blue" data-target="20">0</span><span class="sap-blue">+</span>
+                    </div>
+                    <div class="text-sm font-bold uppercase tracking-wider text-slate-500">Einvoice / Eway Bill Integrations</div>
+                </div>
+
+                <div class="text-center p-6 bg-slate-50 rounded-2xl border border-slate-100 transition hover:shadow-md">
+                    <div class="text-4xl font-extrabold text-slate-900 mb-2">
+                        <span class="counter sap-blue" data-target="15">0</span><span class="sap-blue">+</span>
+                    </div>
+                    <div class="text-sm font-bold uppercase tracking-wider text-slate-500">Digital Signature Integrations</div>
+                </div>
+
+                <div class="text-center p-6 bg-slate-50 rounded-2xl border border-slate-100 transition hover:shadow-md">
+                    <div class="text-4xl font-extrabold text-slate-900 mb-2">
+                        <span class="counter sap-blue" data-target="150">0</span><span class="sap-blue">+</span>
+                    </div>
+                    <div class="text-sm font-bold uppercase tracking-wider text-slate-500">Custom SAP Reports</div>
+                </div>
+
+                <div class="text-center p-6 bg-slate-50 rounded-2xl border border-slate-100 transition hover:shadow-md">
+                    <div class="text-4xl font-extrabold text-slate-900 mb-2">
+                        <span class="counter sap-blue" data-target="30">0</span><span class="sap-blue">+</span>
+                    </div>
+                    <div class="text-sm font-bold uppercase tracking-wider text-slate-500">Large Enterprises Served</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <section id="expertise" class="py-24 px-6 bg-slate-50">
         <div class="max-w-7xl mx-auto">
             <div class="text-center mb-16">
@@ -53,84 +95,170 @@
             </div>
 
             <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Expertise Cards with Improved Bullet Design -->
                 <div class="bg-white p-8 rounded-2xl border border-slate-100 shadow-sm hover:shadow-xl transition-all group">
-                    <div class="w-12 h-12 bg-sky-50 rounded-lg flex items-center justify-center mb-6 group-hover:bg-sap-blue transition">
-                        <i class="fas fa-file-invoice-dollar sap-blue group-hover:text-white text-xl"></i>
+                    <div class="w-14 h-14 bg-sky-50 rounded-xl flex items-center justify-center mb-6 group-hover:bg-sap-blue transition-colors">
+                        <i class="fas fa-file-invoice-dollar sap-blue group-hover:text-white text-2xl"></i>
                     </div>
-                    <h3 class="text-xl font-bold mb-4">SAP GST Compliance</h3>
-                    <ul class="text-slate-600 text-sm space-y-2">
-                        <li>• E-Invoice & E-Way Bill automation</li>
-                        <li>• GSTR-1, 2B & 3B reconciliation</li>
-                        <li>• ITC validation & mismatch tracking</li>
-                        <li>• Vendor payment blocking controls</li>
-                        <li>• IMS & Regulatory updates</li>
+                    <h3 class="text-xl font-bold mb-6 text-slate-900">SAP GST Compliance</h3>
+                    <ul class="space-y-4">
+                        <li class="flex items-start gap-3">
+                            <i class="fas fa-check-circle text-sky-500 mt-1 text-sm"></i>
+                            <span class="text-slate-600 text-sm leading-relaxed">E-Invoice & E-Way Bill automation</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <i class="fas fa-check-circle text-sky-500 mt-1 text-sm"></i>
+                            <span class="text-slate-600 text-sm leading-relaxed">GSTR-1, 2B & 3B reconciliation</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <i class="fas fa-check-circle text-sky-500 mt-1 text-sm"></i>
+                            <span class="text-slate-600 text-sm leading-relaxed">ITC validation & mismatch tracking</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <i class="fas fa-check-circle text-sky-500 mt-1 text-sm"></i>
+                            <span class="text-slate-600 text-sm leading-relaxed">Vendor payment blocking controls</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <i class="fas fa-check-circle text-sky-500 mt-1 text-sm"></i>
+                            <span class="text-slate-600 text-sm leading-relaxed">IMS & Regulatory updates</span>
+                        </li>
                     </ul>
                 </div>
 
                 <div class="bg-white p-8 rounded-2xl border border-slate-100 shadow-sm hover:shadow-xl transition-all group">
-                    <div class="w-12 h-12 bg-sky-50 rounded-lg flex items-center justify-center mb-6 group-hover:bg-sap-blue transition">
-                        <i class="fas fa-project-diagram sap-blue group-hover:text-white text-xl"></i>
+                    <div class="w-14 h-14 bg-sky-50 rounded-xl flex items-center justify-center mb-6 group-hover:bg-sap-blue transition-colors">
+                        <i class="fas fa-project-diagram sap-blue group-hover:text-white text-2xl"></i>
                     </div>
-                    <h3 class="text-xl font-bold mb-4">SAP Integrations</h3>
-                    <ul class="text-slate-600 text-sm space-y-2">
-                        <li>• Direct API & OData-based links</li>
-                        <li>• GSP & GST portal connectivity</li>
-                        <li>• Banking & Payment gateways</li>
-                        <li>• Marketplace & Vendor portals</li>
-                        <li>• IDoc, CSV, and XML interfaces</li>
+                    <h3 class="text-xl font-bold mb-6 text-slate-900">SAP Integrations</h3>
+                    <ul class="space-y-4">
+                        <li class="flex items-start gap-3">
+                            <i class="fas fa-check-circle text-sky-500 mt-1 text-sm"></i>
+                            <span class="text-slate-600 text-sm leading-relaxed">Direct API & OData-based links</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <i class="fas fa-check-circle text-sky-500 mt-1 text-sm"></i>
+                            <span class="text-slate-600 text-sm leading-relaxed">GSP & GST portal connectivity</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <i class="fas fa-check-circle text-sky-500 mt-1 text-sm"></i>
+                            <span class="text-slate-600 text-sm leading-relaxed">Banking & Payment gateways</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <i class="fas fa-check-circle text-sky-500 mt-1 text-sm"></i>
+                            <span class="text-slate-600 text-sm leading-relaxed">Marketplace & Vendor portals</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <i class="fas fa-check-circle text-sky-500 mt-1 text-sm"></i>
+                            <span class="text-slate-600 text-sm leading-relaxed">IDoc, CSV, and XML interfaces</span>
+                        </li>
                     </ul>
                 </div>
 
                 <div class="bg-white p-8 rounded-2xl border border-slate-100 shadow-sm hover:shadow-xl transition-all group">
-                    <div class="w-12 h-12 bg-sky-50 rounded-lg flex items-center justify-center mb-6 group-hover:bg-sap-blue transition">
-                        <i class="fas fa-microchip sap-blue group-hover:text-white text-xl"></i>
+                    <div class="w-14 h-14 bg-sky-50 rounded-xl flex items-center justify-center mb-6 group-hover:bg-sap-blue transition-colors">
+                        <i class="fas fa-microchip sap-blue group-hover:text-white text-2xl"></i>
                     </div>
-                    <h3 class="text-xl font-bold mb-4">Custom Reporting</h3>
-                    <ul class="text-slate-600 text-sm space-y-2">
-                        <li>• Advanced ABAP for all modules</li>
-                        <li>• Manual effort reduction via automation</li>
-                        <li>• Smart reconciliation dashboards</li>
-                        <li>• Workflow-based approvals</li>
-                        <li>• Optimized for large data volumes</li>
+                    <h3 class="text-xl font-bold mb-6 text-slate-900">Custom SAP Reports</h3>
+                    <ul class="space-y-4">
+                        <li class="flex items-start gap-3">
+                            <i class="fas fa-check-circle text-sky-500 mt-1 text-sm"></i>
+                            <span class="text-slate-600 text-sm leading-relaxed">Advanced ABAP for all modules</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <i class="fas fa-check-circle text-sky-500 mt-1 text-sm"></i>
+                            <span class="text-slate-600 text-sm leading-relaxed">Manual effort reduction via automation</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <i class="fas fa-check-circle text-sky-500 mt-1 text-sm"></i>
+                            <span class="text-slate-600 text-sm leading-relaxed">Smart reconciliation dashboards</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <i class="fas fa-check-circle text-sky-500 mt-1 text-sm"></i>
+                            <span class="text-slate-600 text-sm leading-relaxed">Workflow-based approvals</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <i class="fas fa-check-circle text-sky-500 mt-1 text-sm"></i>
+                            <span class="text-slate-600 text-sm leading-relaxed">Optimized for large data volumes</span>
+                        </li>
                     </ul>
                 </div>
 
                 <div class="bg-white p-8 rounded-2xl border border-slate-100 shadow-sm hover:shadow-xl transition-all group">
-                    <div class="w-12 h-12 bg-sky-50 rounded-lg flex items-center justify-center mb-6 group-hover:bg-sap-blue transition">
-                        <i class="fas fa-print sap-blue group-hover:text-white text-xl"></i>
+                    <div class="w-14 h-14 bg-sky-50 rounded-xl flex items-center justify-center mb-6 group-hover:bg-sap-blue transition-colors">
+                        <i class="fas fa-print sap-blue group-hover:text-white text-2xl"></i>
                     </div>
-                    <h3 class="text-xl font-bold mb-4">Document Solutions</h3>
-                    <ul class="text-slate-600 text-sm space-y-2">
-                        <li>• Customized Invoices, STOs & Challans</li>
-                        <li>• Adobe Forms & SmartForms design</li>
-                        <li>• Multi-language & GST layouts</li>
-                        <li>• Automated email & digital dispatch</li>
+                    <h3 class="text-xl font-bold mb-6 text-slate-900">Document Solutions</h3>
+                    <ul class="space-y-4">
+                        <li class="flex items-start gap-3">
+                            <i class="fas fa-check-circle text-sky-500 mt-1 text-sm"></i>
+                            <span class="text-slate-600 text-sm leading-relaxed">Customized Invoices, STOs & Challans</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <i class="fas fa-check-circle text-sky-500 mt-1 text-sm"></i>
+                            <span class="text-slate-600 text-sm leading-relaxed">Adobe Forms & SmartForms design</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <i class="fas fa-check-circle text-sky-500 mt-1 text-sm"></i>
+                            <span class="text-slate-600 text-sm leading-relaxed">Multi-language & GST layouts</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <i class="fas fa-check-circle text-sky-500 mt-1 text-sm"></i>
+                            <span class="text-slate-600 text-sm leading-relaxed">Automated email & digital dispatch</span>
+                        </li>
                     </ul>
                 </div>
 
                 <div class="bg-white p-8 rounded-2xl border border-slate-100 shadow-sm hover:shadow-xl transition-all group">
-                    <div class="w-12 h-12 bg-sky-50 rounded-lg flex items-center justify-center mb-6 group-hover:bg-sap-blue transition">
-                        <i class="fas fa-file-import sap-blue group-hover:text-white text-xl"></i>
+                    <div class="w-14 h-14 bg-sky-50 rounded-xl flex items-center justify-center mb-6 group-hover:bg-sap-blue transition-colors">
+                        <i class="fas fa-file-import sap-blue group-hover:text-white text-2xl"></i>
                     </div>
-                    <h3 class="text-xl font-bold mb-4">Vendor Invoice (VIM)</h3>
-                    <ul class="text-slate-600 text-sm space-y-2">
-                        <li>• End-to-end lifecycle automation</li>
-                        <li>• 2-way & 3-way matching</li>
-                        <li>• Plant-level & multi-location support</li>
-                        <li>• Faster processing, less manual work</li>
+                    <h3 class="text-xl font-bold mb-6 text-slate-900">Vendor Invoice (VIM)</h3>
+                    <ul class="space-y-4">
+                        <li class="flex items-start gap-3">
+                            <i class="fas fa-check-circle text-sky-500 mt-1 text-sm"></i>
+                            <span class="text-slate-600 text-sm leading-relaxed">End-to-end lifecycle automation</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <i class="fas fa-check-circle text-sky-500 mt-1 text-sm"></i>
+                            <span class="text-slate-600 text-sm leading-relaxed">2-way & 3-way matching</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <i class="fas fa-check-circle text-sky-500 mt-1 text-sm"></i>
+                            <span class="text-slate-600 text-sm leading-relaxed">Plant-level & multi-location support</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <i class="fas fa-check-circle text-sky-500 mt-1 text-sm"></i>
+                            <span class="text-slate-600 text-sm leading-relaxed">Faster processing, less manual work</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <i class="fas fa-check-circle text-sky-500 mt-1 text-sm"></i>
+                            <span class="text-slate-600 text-sm leading-relaxed">Third Party Vendor Portal Integrations</span>
+                        </li>
                     </ul>
                 </div>
 
                 <div class="bg-white p-8 rounded-2xl border border-slate-100 shadow-sm hover:shadow-xl transition-all group">
-                    <div class="w-12 h-12 bg-sky-50 rounded-lg flex items-center justify-center mb-6 group-hover:bg-sap-blue transition">
-                        <i class="fas fa-signature sap-blue group-hover:text-white text-xl"></i>
+                    <div class="w-14 h-14 bg-sky-50 rounded-xl flex items-center justify-center mb-6 group-hover:bg-sap-blue transition-colors">
+                        <i class="fas fa-signature sap-blue group-hover:text-white text-2xl"></i>
                     </div>
-                    <h3 class="text-xl font-bold mb-4">Digital Signatures</h3>
-                    <ul class="text-slate-600 text-sm space-y-2">
-                        <li>• Automated signing within SAP</li>
-                        <li>• Integration with licensed DSCs</li>
-                        <li>• Bulk signing workflows</li>
-                        <li>• Audit-ready and legally compliant</li>
+                    <h3 class="text-xl font-bold mb-6 text-slate-900">Digital Signatures</h3>
+                    <ul class="space-y-4">
+                        <li class="flex items-start gap-3">
+                            <i class="fas fa-check-circle text-sky-500 mt-1 text-sm"></i>
+                            <span class="text-slate-600 text-sm leading-relaxed">Automated signing within SAP</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <i class="fas fa-check-circle text-sky-500 mt-1 text-sm"></i>
+                            <span class="text-slate-600 text-sm leading-relaxed">Integration with licensed DSCs</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <i class="fas fa-check-circle text-sky-500 mt-1 text-sm"></i>
+                            <span class="text-slate-600 text-sm leading-relaxed">Bulk signing workflows</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <i class="fas fa-check-circle text-sky-500 mt-1 text-sm"></i>
+                            <span class="text-slate-600 text-sm leading-relaxed">Audit-ready and legally compliant</span>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -141,14 +269,14 @@
         <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-12">
             <div class="md:w-1/2">
                 <h2 class="text-3xl font-bold mb-6">Who We Work With</h2>
-                <p class="text-slate-600 mb-8">We partner with organizations that run SAP ERP and need a reliable, execution-focused technical partner rather than a slow-moving consulting firm.</p>
+                <p class="text-slate-600 mb-8">We partner with organizations that run SAP ERP and need a reliable, execution-focused technical partner.</p>
                 <div class="grid grid-cols-2 gap-4">
                     <div class="p-4 border border-slate-100 rounded-lg text-center font-semibold text-slate-700 shadow-sm">Manufacturing</div>
                     <div class="p-4 border border-slate-100 rounded-lg text-center font-semibold text-slate-700 shadow-sm">Retail & Distribution</div>
                     <div class="p-4 border border-slate-100 rounded-lg text-center font-semibold text-slate-700 shadow-sm">Pharma & Healthcare</div>
                     <div class="p-4 border border-slate-100 rounded-lg text-center font-semibold text-slate-700 shadow-sm">Paper & Textiles</div>
-					                    <div class="p-4 border border-slate-100 rounded-lg text-center font-semibold text-slate-700 shadow-sm">Mining & Heavy Industries</div>
-										<div class="p-4 border border-slate-100 rounded-lg text-center font-semibold text-slate-700 shadow-sm">Gas & Petrochemicals</div>
+                    <div class="p-4 border border-slate-100 rounded-lg text-center font-semibold text-slate-700 shadow-sm">Mining & Heavy Industries</div>
+                    <div class="p-4 border border-slate-100 rounded-lg text-center font-semibold text-slate-700 shadow-sm">Gas & Petrochemicals</div>
                 </div>
             </div>
             <div id="why-us" class="md:w-1/2 bg-slate-900 text-white p-10 rounded-3xl shadow-2xl">
@@ -164,7 +292,7 @@
                     </div>
                     <div class="flex gap-4">
                         <i class="fas fa-flag text-sky-400 mt-1"></i>
-                        <p><strong class="text-sky-400">India-Focused Compliance:</strong> Deep expertise in GST & evolving mandates.</p>
+                        <p><strong class="text-sky-400">India-Focused Compliance:</strong> Deep expertise in GST & mandates.</p>
                     </div>
                     <div class="flex gap-4">
                         <i class="fas fa-bullseye text-sky-400 mt-1"></i>
@@ -175,37 +303,20 @@
         </div>
     </section>
 
+    <!-- CONTACT SECTION WITH GOOGLE FORM BUTTON -->
     <section id="contact" class="py-24 px-6 bg-slate-50 border-t border-slate-100">
         <div class="max-w-4xl mx-auto text-center">
             <h2 class="text-3xl font-bold mb-4">Ready to Unlock Full Value?</h2>
-            <p class="text-slate-500 mb-12">Get in touch for a hands-on technical partner who understands your business.</p>
+            <p class="text-slate-500 mb-12">Click below to share your requirements through our secure form, and our experts will get back to you shortly. OR reachout to us on <b>consulting@innosapsolutions.co.in</b></p>
             
-            <form class="grid grid-cols-1 md:grid-cols-2 gap-6 text-left bg-white p-8 md:p-12 rounded-2xl shadow-sm border border-slate-200">
-                <div class="md:col-span-1">
-                    <label class="block text-xs font-bold uppercase tracking-wider text-slate-400 mb-2">Company Name</label>
-                    <input type="text" class="w-full px-4 py-3 rounded-lg border border-slate-200 focus:border-sky-500 outline-none">
-                </div>
-                <div class="md:col-span-1">
-                    <label class="block text-xs font-bold uppercase tracking-wider text-slate-400 mb-2">Work Email</label>
-                    <input type="email" class="w-full px-4 py-3 rounded-lg border border-slate-200 focus:border-sky-500 outline-none">
-                </div>
-                <div class="md:col-span-2">
-                    <label class="block text-xs font-bold uppercase tracking-wider text-slate-400 mb-2">Core Requirement</label>
-                    <select class="w-full px-4 py-3 rounded-lg border border-slate-200 focus:border-sky-500 outline-none bg-white">
-                        <option>SAP GST Compliance</option>
-                        <option>SAP Integrations</option>
-                        <option>Custom Automation/ABAP</option>
-                        <option>Document/VIM/Digital Sign</option>
-                    </select>
-                </div>
-                <div class="md:col-span-2">
-                    <label class="block text-xs font-bold uppercase tracking-wider text-slate-400 mb-2">Message</label>
-                    <textarea rows="4" class="w-full px-4 py-3 rounded-lg border border-slate-200 focus:border-sky-500 outline-none"></textarea>
-                </div>
-                <div class="md:col-span-2">
-                    <button class="w-full bg-sap-blue text-white font-bold py-4 rounded-lg shadow-lg hover:bg-sky-700 transition uppercase tracking-widest text-sm">Request Consultation</button>
-                </div>
-            </form>
+            <div class="bg-white p-12 rounded-3xl shadow-sm border border-slate-200">
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSfBu7UyKVBucr0iyOgh2m2ReenmrubkC6S3nEvmK-pWx0ZMRw/viewform?usp=dialog" 
+                   target="_blank" 
+                   class="inline-block bg-sap-blue text-white font-bold py-6 px-12 rounded-xl shadow-lg hover:bg-sky-700 transition uppercase tracking-widest text-lg">
+                    Contact Our Experts
+                </a>
+                <p class="mt-6 text-sm text-slate-400 italic">Secure Google Form Link</p>
+            </div>
         </div>
     </section>
 
@@ -220,5 +331,37 @@
         </div>
     </footer>
 
+    <script>
+        const counters = document.querySelectorAll('.counter');
+        const speed = 100;
+
+        const startCounters = (entries, observer) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    const counter = entry.target;
+                    const updateCount = () => {
+                        const target = +counter.getAttribute('data-target');
+                        const count = +counter.innerText;
+                        const inc = target / speed;
+
+                        if (count < target) {
+                            counter.innerText = Math.ceil(count + inc);
+                            setTimeout(updateCount, 20);
+                        } else {
+                            counter.innerText = target;
+                        }
+                    };
+                    updateCount();
+                    observer.unobserve(counter);
+                }
+            });
+        };
+
+        const counterObserver = new IntersectionObserver(startCounters, {
+            threshold: 0.5
+        });
+
+        counters.forEach(counter => counterObserver.observe(counter));
+    </script>
 </body>
 </html>
